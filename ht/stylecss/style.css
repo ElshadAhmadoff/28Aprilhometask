@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-image: url("../img/bg-masthead.jpg");
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 350px 0px;
+}
+header h1{
+    font-size: 87px;
+    color: #212529;
+}
+header p{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 55px;
+    color: #212529
+    
+}
+header a{
+    text-decoration: none;
+    background-color: #1D809F;
+    border-color: #1D809F;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+header a:hover{
+    background-color: #1b5c70;
+    transition: all 0.2s ease;
+}
+.one{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 120px 0px;
+}
+.one h1{
+    font-size: 2rem;
+}
+.one p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #adb5bd; 
+    margin-bottom: 55px;
+}
+.one p a{
+    color: #adb5bd; 
+}
+.one-a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.two{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding: 120px 0px;
+    background-color: #1D809F;
+}
+.two-one{
+    width: 100%;
+    margin-bottom: 55px;
+}
+.one-two{
+    width: 16%;
+    float: left;
+}
+.one-two span{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    background-color: #fff;
+}
+.one-two i{
+    font-size: 50px;
+    margin-top: 34px;
+    color: #1D809F;
+}
+.two-one h4{
+    color: #ecb807;
+    margin-bottom: 20px;
+}
+.two-one h1{
+    color: white;
+    font-size: 47px;
+}
+.sec{
+    text-align: center;
+}
